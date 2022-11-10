@@ -20,7 +20,7 @@ namespace OOPLabb4CollectionGenerics
             Empstack.Push(E4);
             Empstack.Push(E5);
 
-            Console.WriteLine("~~~~ All items in stack~~~~");
+            Console.WriteLine("~~~~All items in stack~~~~");
 
             foreach (var item in Empstack)
             {
@@ -51,14 +51,14 @@ namespace OOPLabb4CollectionGenerics
                 Console.WriteLine("ID = {0}\nName = {1}\nGender = {2}\nSalary = {3}", e.ID, e.Name, e.Gender, e.Salary);
                 Console.WriteLine("Items left in stack = {0} ", Empstack.Count);
             }
-            Console.WriteLine("~~~~~~~Contains Employee 3~~~~~~~~");
+            Console.WriteLine("~~~~~~~Contains Employee~~~~~~~~");
             if (Empstack.Contains(E3))
             {
-                Console.WriteLine("This item is in the stack");
+                Console.WriteLine("This Employee is in the stack");
             }
             else
             {
-                Console.WriteLine("This item is not in the stack");
+                Console.WriteLine("This Employee is not in the stack");
             }
             Console.WriteLine("~~~~~~~~~~~~~~LIST~~~~~~~~~~~~~~~~");
 
