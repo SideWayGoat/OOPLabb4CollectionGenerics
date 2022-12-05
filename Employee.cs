@@ -10,6 +10,8 @@ namespace OOPLabb4CollectionGenerics
         public string Name { get; set; }
         public string Gender { get; set; }
         public double Salary { get; set; }
+
+
         public Employee(int _id, string _name, string _gender, double _salary)
         {
             this.ID = _id;
